@@ -7,10 +7,11 @@
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
     color: #333;
+    margin: 0;
 }
 
 .container {
@@ -24,10 +25,13 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffcc00;
 }
 
 header h1 {
     font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 header p {
@@ -42,6 +46,7 @@ section h2 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
+    color: #333;
 }
 
 .project {
@@ -51,23 +56,35 @@ section h2 {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     cursor: pointer; /* Add pointer cursor to indicate clickability */
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
 }
 
 .project h3 {
     font-size: 1.5rem;
     color: #333;
+    margin-bottom: 10px;
 }
 
 .project p {
     font-size: 1.1rem;
     color: #666;
+    margin-bottom: 0;
+}
+
+#contact {
+    background: #f0f0f0;
+    padding: 40px 0;
 }
 
 form {
     max-width: 600px;
     margin: auto;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -79,11 +96,12 @@ form {
 form label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 form input {
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -93,13 +111,14 @@ form input {
 button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     font-size: 1rem;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {

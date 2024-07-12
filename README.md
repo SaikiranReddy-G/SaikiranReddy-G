@@ -19,13 +19,21 @@ Here are some of my notable projects:
 
 ## Contact Me
 
-Feel free to reach out to me via email: [your.email@example.com](mailto:your.email@example.com)
+Feel free to reach out to me via email: [gonesaikiran4@gmail.com](mailto:gonesaikiran4@gmail.com)
 
 ## Connect with Me
 
-- LinkedIn: [Sai Kiran Reddy Gone](https://www.linkedin.com/in/sai-kiran-reddy-gone/)
-- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- [LinkedIn](https://www.linkedin.com/in/sai-kiran-reddy-gone/)
+- [GitHub](https://github.com/SaikiranReddy-G)
+
+---
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x200" alt="Profile Image">
+</p>
+
+---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
